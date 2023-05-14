@@ -34,6 +34,9 @@
 
 <style lang="scss" scoped>
 
+    #MainComp {
+        border: solid 2px green;
+    }
 
 
 </style>

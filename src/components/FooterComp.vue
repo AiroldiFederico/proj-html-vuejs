@@ -34,6 +34,8 @@
 
 <style lang="scss" scoped>
 
-
+    #FooterComp {
+        border: solid 2px blue;
+    }
 
 </style>
