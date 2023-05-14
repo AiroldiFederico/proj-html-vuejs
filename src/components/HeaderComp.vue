@@ -223,7 +223,8 @@
 
                         #id1 {
                             color:#038483;
-                            margin-bottom: 0.5rem;
+                            margin-bottom: 0.2rem;
+                            font-size: large;
                         }
 
                         #id2 {

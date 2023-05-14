@@ -1,11 +1,11 @@
 <script>
-
+    import Sec1_MComp from "./Sec1_MComp.vue"
     export default{
 
         name: "MainComp",
         
         components: {
-            
+            Sec1_MComp
         },
 
         data(){
@@ -24,7 +24,7 @@
 
 <template>
     <div id="MainComp">
-        <h1>MAIN</h1>
+        <Sec1_MComp/>
     </div>
 </template>
 
