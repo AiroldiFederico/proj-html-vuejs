@@ -24,10 +24,10 @@
 
 <template>
     <div id="HeaderComp" class="col-12 ">
-        <div id="content" class="col-8 m-auto" >
+        <div id="content" >
 
             <!-- Topper Header -->
-            <div id="topper">
+            <div id="topper" class="col-8 m-auto">
                 <!-- left -->
                 <div id="left">
                     <span>
@@ -69,7 +69,7 @@
             <!-- Core Header -->
             <div id="core">
                 <!-- Navbar -->
-                <div id="navbar">
+                <div id="navbar" class="col-8 m-auto">
                     <!-- left -->
                     <div id="left">
                         <h4>
@@ -94,8 +94,16 @@
                 </div>
 
                 <!-- core -->
-                <div>
-                    
+                <div id="HeadCore" class="col-8 m-auto">
+                    <div>
+                        <div>HUMAN RESOURCES</div>
+                        <div><h1>Get More Productivity</h1></div>
+                        <div>Planning, recruitment and selection process and performance evaluation of employees.</div>
+                        <div>
+                            <button>GET IN TOUCH</button>
+                            <button>READ MORE</button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -113,6 +121,7 @@
     #HeaderComp {
         border: solid rgb(186, 186, 0) 2px;
         background-color: #21333e;
+
 
         #content{
             
@@ -136,8 +145,30 @@
 
             #core {
 
+                height: 30rem;
+                padding-top: 1rem;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                z-index: 1;
 
-                margin-top: 1rem;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-image: url('../img/bg-4.jpg');
+                    background-position: top;
+                    background-size: cover;
+                    filter: brightness(0.5);
+                    z-index: -1;
+                }
+
+
+
+               
 
                 #navbar {
                     display: flex;
@@ -180,7 +211,22 @@
 
                 }
 
+                #HeadCore {
+                    color:#babdbe;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;     
+                    
+                    div {
+                        h1 {
+                            font-weight: bolder;
+                            color: white;
+                        }
+                    }
+                }
+
             }
+
         }
 
 
