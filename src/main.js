@@ -24,11 +24,11 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faClock, faEnvelope, faPhone, faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { faClock, faEnvelope, faPhone, faUser, faUserSecret, faUsers } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 /* add icons to the library */
-library.add(faUserSecret, faClock, faPhone, faEnvelope, faFacebookF, faTwitter, faLinkedinIn)
+library.add(faUserSecret, faClock, faPhone, faEnvelope, faFacebookF, faTwitter, faLinkedinIn, faUser,)
 
 
 

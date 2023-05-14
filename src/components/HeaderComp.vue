@@ -66,6 +66,39 @@
                 </div>
             </div>
 
+            <!-- Core Header -->
+            <div id="core">
+                <!-- Navbar -->
+                <div id="navbar">
+                    <!-- left -->
+                    <div id="left">
+                        <h4>
+                            <span>NEXT</span>
+                            GEN
+                        </h4>
+                    </div>
+
+                    <!-- right -->
+                    <div  id="right">
+                        <ul>
+                            <li>HOME</li>
+                            <li>ABOUT</li>
+                            <li>PROJECTS</li>
+                            <li style="color: #038483;">PROCESS</li>
+                            <li>TESTIMONIALS</li>
+                            <li><font-awesome-icon icon="fa-solid fa-user"/></li>
+                            <li><button type="button" class="btn">GET IN TOUCH</button></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- core -->
+                <div>
+                    
+                </div>
+            </div>
+
 
         </div>
     </div>
@@ -97,6 +130,54 @@
                         display: flex;
                         gap: 1rem;
                     }
+                }
+
+            }
+
+            #core {
+
+
+                margin-top: 1rem;
+
+                #navbar {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    #left {
+                        h4 {
+                            font-weight: bold;
+                            color:#babdbe;
+
+                            span {
+                                color: #038483;
+                                background-color: #0384843b;
+                                padding: 2px 4px 2px 16px;
+                                border-radius: 100px 0px 0px 100px;
+                            }
+                        }
+                    }
+
+                    #right {
+                        color:#e4eae6;
+
+                        ul {
+                            display: flex;
+                            align-items: center;
+                            gap: 1rem;
+                        }
+
+                        .btn {
+                            background-color: #038483;
+                            font-weight: bold;
+                            color:#e4eae6;
+
+                            &:hover {
+                                color: rgb(41, 41, 41);
+                            }
+                        }
+                    }
+
                 }
 
             }
