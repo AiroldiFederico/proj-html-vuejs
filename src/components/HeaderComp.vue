@@ -177,6 +177,7 @@
                         h4 {
                             font-weight: bold;
                             color:#babdbe;
+                            word-spacing: -2px;
 
                             span {
                                 color: #038483;

@@ -66,7 +66,7 @@
 
         #core {
 
-            padding: 5rem 0;
+            padding: 8rem 0;
             display: flex;
             justify-content: center;
             gap: 2rem;
