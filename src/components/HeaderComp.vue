@@ -95,7 +95,7 @@
 
                 <!-- core -->
                 <div id="HeadCore" class="col-8 m-auto">
-                    <div class="col-4">
+                    <div class="col-5">
                         <div id="id1">HUMAN RESOURCES</div>
                         <div><h1>Get More <span>Productivity</span> </h1></div>
                         <div id="id2">Planning, recruitment and selection process and performance evaluation of employees.</div>
@@ -145,7 +145,7 @@
 
             #core {
 
-                height: 30rem;
+                height: 45rem;
                 padding-top: 1rem;
                 display: flex;
                 flex-direction: column;
@@ -215,20 +215,22 @@
                     color:#babdbe;
                     height: 90%;
                     display: flex;
-                    align-items: center;     
+                    align-items: center;   
+ 
                 
                     
                     div {
 
                         #id1 {
-                            color: #00a8a8;
+                            color:#038483;
+                            margin-bottom: 0.5rem;
                         }
 
                         #id2 {
                             font-family:Arial, Helvetica, sans-serif;
                             font-weight: normal;
-                            margin: 1rem 0;
-                            font-size: larger;
+                            margin: 1.5rem 0;
+                            font-size: 1.5rem;
                         }
 
                         #id3 {
@@ -270,7 +272,7 @@
                         h1 {
                             font-weight: bolder;
                             color: white;
-                            font-size: 3.5rem;
+                            font-size: 4.5rem;
 
                             span {
 
