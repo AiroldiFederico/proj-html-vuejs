@@ -95,13 +95,13 @@
 
                 <!-- core -->
                 <div id="HeadCore" class="col-8 m-auto">
-                    <div>
-                        <div>HUMAN RESOURCES</div>
-                        <div><h1>Get More Productivity</h1></div>
-                        <div>Planning, recruitment and selection process and performance evaluation of employees.</div>
-                        <div>
-                            <button>GET IN TOUCH</button>
-                            <button>READ MORE</button>
+                    <div class="col-4">
+                        <div id="id1">HUMAN RESOURCES</div>
+                        <div><h1>Get More <span>Productivity</span> </h1></div>
+                        <div id="id2">Planning, recruitment and selection process and performance evaluation of employees.</div>
+                        <div id="id3">
+                            <button type="button" class="btn" id="btn1">GET IN TOUCH</button>
+                            <button type="button" class="btn btn-outline-secondary" id="btn2">READ MORE</button>
                         </div>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
 <style lang="scss" scoped>
 
     #HeaderComp {
-        border: solid rgb(186, 186, 0) 2px;
+
         background-color: #21333e;
 
 
@@ -131,7 +131,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                padding: 0.5rem 0;
+                padding: 0.8rem 0;
 
                 #right {
 
@@ -152,6 +152,7 @@
                 position: relative;
                 z-index: 1;
 
+                //background settings
                 &::before {
                     content: "";
                     position: absolute;
@@ -167,9 +168,6 @@
                 }
 
 
-
-               
-
                 #navbar {
                     display: flex;
                     justify-content: space-between;
@@ -183,7 +181,7 @@
                             span {
                                 color: #038483;
                                 background-color: #0384843b;
-                                padding: 2px 4px 2px 16px;
+                                padding: 10px 4px 10px 26px;
                                 border-radius: 100px 0px 0px 100px;
                             }
                         }
@@ -202,6 +200,8 @@
                             background-color: #038483;
                             font-weight: bold;
                             color:#e4eae6;
+                            padding: 10px 15px;
+                            border-radius: 3px;
 
                             &:hover {
                                 color: rgb(41, 41, 41);
@@ -213,14 +213,73 @@
 
                 #HeadCore {
                     color:#babdbe;
-                    height: 100%;
+                    height: 90%;
                     display: flex;
                     align-items: center;     
+                
                     
                     div {
+
+                        #id1 {
+                            color: #00a8a8;
+                        }
+
+                        #id2 {
+                            font-family:Arial, Helvetica, sans-serif;
+                            font-weight: normal;
+                            margin: 1rem 0;
+                            font-size: larger;
+                        }
+
+                        #id3 {
+
+                            #btn1 {
+                                
+                                background-color: #038483;
+                                font-weight: bold;
+                                color:#e4eae6;
+                                padding: 10px 15px;
+                                border-radius: 3px;
+                                margin-right: 1rem;
+    
+                                &:hover {
+                                    color: rgb(41, 41, 41);
+                                }
+                                
+                            }
+
+                            #btn2 {
+                                font-weight: bold;
+                                padding: 10px 15px;
+                                border-radius: 3px;
+                                margin-right: 1rem;
+                                color: #038483;
+                                border-color: #038483;
+
+                                &:hover {
+                                    background-color: #038483;
+                                    color:#e4eae6;
+                                }
+                            }
+
+
+
+                        }
+
+
                         h1 {
                             font-weight: bolder;
                             color: white;
+                            font-size: 3.5rem;
+
+                            span {
+
+                                display: inline-block;
+                                background-color: #006565;
+                                line-height: 0.5;
+                                padding: 0 0rem;
+
+                            }
                         }
                     }
                 }
