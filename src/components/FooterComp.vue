@@ -2,7 +2,7 @@
 
     export default{
 
-        name: "NameComp",
+        name: "FooterComp",
         
         components: {
             
@@ -15,10 +15,6 @@
 
             }
         },
-        methods: {
-
-
-        },
     }
     
 </script>
@@ -27,8 +23,8 @@
 
 
 <template>
-    <div id="NameComp">
-
+    <div id="FooterComp">
+        <h1>FOOTER</h1>
     </div>
 </template>
 

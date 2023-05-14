@@ -1,18 +1,18 @@
 <script setup>
-import NameComp from "./components/NameComp.vue"
+import HeaderComp from "./components/HeaderComp.vue"
+import MainComp from "./components/MainComp.vue"
+import FooterComp from "./components/FooterComp.vue"
 
 </script>
 
 <template>
-  
-  <h1 class="text-primary">Ciao Federico</h1>
-  <font-awesome-icon icon="fa-solid fa-rocket" />
-  <NameComp/>
+  <HeaderComp/>
+  <MainComp/>
+  <FooterComp/>
   
 </template>
 
 <style lang="scss">
-
 @use "./style/main.scss" as *;
 
 

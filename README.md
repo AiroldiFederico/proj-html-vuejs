@@ -1,11 +1,11 @@
 # ESERCIZIO
 
-### Title: placeholder
+### Title: proj-html-vuejs
 ---
 **ALUNNO:** FEDERICO AIROLDI
 
-**DATA:** xx-xx-xxxx
+**DATA:** 14-05-2023
 
 **STATO DELL'ESERCIZIO:** Work in progress
 
-_Boolean Classe #93_
+_Boolean Classe 
