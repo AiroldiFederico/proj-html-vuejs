@@ -89,7 +89,7 @@
     #Sec4_MComp {
         color: rgb(143, 142, 142);
         text-align: center;
-        padding: 6rem 0rem;
+        padding: 9rem 0rem;
 
         #id1 {
             color: #1a948f;
@@ -97,7 +97,7 @@
 
         #id2 {
             padding: 1rem;
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
             h1 {
                 font-weight: bolder;
                 font-size: 3rem;
