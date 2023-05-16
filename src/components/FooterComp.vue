@@ -69,6 +69,25 @@
             <!-- CONTACT -->
             <div id="contact" class="col-4">
 
+                <!-- Title -->
+                <div id="id1"><h4>Example Inc.</h4></div>
+
+                <!-- Text -->
+                <div id="id2" class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+
+                <!-- Text -->
+                <div id="id3" class="text">Praesent diam lacus, dapibus sed imperdiet consectetur.</div>
+
+                <!-- contact -->
+                <div id="id4">
+                    <div><span><font-awesome-icon icon="fa-solid fa-phone" class="icon"/></span>+1 (305) 1234-5678</div>
+                    <div><span><font-awesome-icon icon="fa-solid fa-envelope" class="icon"/></span>hello@example.com</div>
+                    <div><span><font-awesome-icon icon="fa-solid fa-location-dot" class="icon"/></span>Main Avenue, 987</div>
+                </div>
+
+                <!-- Button -->
+                <button type="button" class="btn btn-outline-secondary col-4" id="btn2">VIEW MAP</button>
+
             </div>
 
         </div>
@@ -85,9 +104,11 @@
         background-color: #111117;
         padding: 8rem;
         color: white;
-
+        
         #core {
-
+            
+            display: flex;
+            gap: 4rem;
 
             #form {
 
@@ -144,6 +165,53 @@
             }
 
             #contact {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                #id1 {
+                    h4 {
+                        font-weight: bolder;
+                        font-size: 1.8rem;
+                    }
+                }
+
+                .text {
+                    font-weight: normal;
+                    font-size: larger;
+                    color:#8b8b93;
+                }
+
+                #id4 {
+                    color: #058283;
+                    font-size: 1.2rem;
+                    font-weight: normal;
+                    line-height: 4rem;
+                    
+                    span {
+                        background-color: #02a1a422;
+                        padding: 0.8rem;
+                        border-radius: 100%;
+                        margin-right: 1rem;
+
+                        .icon	{
+                            aspect-ratio: 1;
+                        }
+                    }
+                }
+
+                #btn2 {
+                    font-weight: bold;
+                    padding: 10px 15px;
+                    border-radius: 3px;
+                    margin-right: 1rem;
+                    color:#e4eae6;
+                    border-color: #038483;
+
+                    &:hover {
+                        background-color: #038483; 
+                    }
+                }
 
             }
 
