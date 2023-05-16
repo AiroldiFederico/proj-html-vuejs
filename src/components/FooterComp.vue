@@ -57,11 +57,10 @@
                         </select>
                     </div>
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Message" id="floatingTextarea2" style="height: 100px"></textarea>
-                        <label for="floatingTextarea2">Message</label>
+                        <textarea class="form-control"  id="floatingTextarea2" placeholder="Message" style="height: 100px"></textarea>                        
                     </div>
                     <div class="col-12">
-                      <button type="submit" class="btn btn-primary">SEND</button>
+                      <button type="submit" class="btn" id="btn1">SEND</button>
                     </div>
                 </form>
 
@@ -106,8 +105,8 @@
 
                         span {
                             background-color: #02a1a443;
-                            padding: 0.2rem 0.5rem;
-                            border-radius: 6px;
+                            padding: 0.1rem 0.5rem;
+                            border-radius: 4px;
                         }
                     }
                 }
@@ -117,6 +116,29 @@
                     font-size: larger;
                     font-weight: normal;
                     color: #8b8b93;
+                }
+
+                .form-control, .form-select {
+                    background-color: #23232d;
+                    border: none;
+                    color: #707079;
+                    line-height: 2.5rem;
+                    border-radius: 2px;
+                }
+
+                #btn1 {
+                                
+                    background-color: #038483;
+                    font-weight: bold;
+                    color:#e4eae6;
+                    padding: 10px 25px;
+                    border-radius: 3px;
+                    margin-right: 1rem;
+
+                    &:hover {
+                        color: rgb(41, 41, 41);
+                    }
+                    
                 }
 
             }
