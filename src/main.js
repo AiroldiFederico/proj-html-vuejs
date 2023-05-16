@@ -24,11 +24,11 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faChartPie, faClock, faEnvelope, faGaugeHigh, faLocationDot, faPhone, faQuoteRight, faUser, faUserGroup, faUserSecret, faUsers } from '@fortawesome/free-solid-svg-icons'
+import { faChartPie, faClock, faEnvelope, faForward, faGaugeHigh, faLocationDot, faPhone, faPlay, faQuoteRight, faUser, faUserGroup, faUserSecret, faUsers } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 /* add icons to the library */
-library.add(faUserSecret, faClock, faPhone, faEnvelope, faFacebookF, faTwitter, faLinkedinIn, faUser, faUserGroup, faChartPie, faGaugeHigh, faQuoteRight, faLocationDot)
+library.add(faUserSecret, faClock, faPhone, faEnvelope, faFacebookF, faTwitter, faLinkedinIn, faUser, faUserGroup, faChartPie, faGaugeHigh, faQuoteRight, faLocationDot, faForward, faPlay)
 
 
 

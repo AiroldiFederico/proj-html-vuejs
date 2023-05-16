@@ -40,6 +40,7 @@
         <!-- number -->
         <div id="id4">
             <ul>
+                <div class="arrow"><font-awesome-icon icon="fa-solid fa-forward" id="arrow"/></div>
                 <li><span>01</span></li>
                 <li><span>02</span></li>
                 <li><span>03</span></li>
@@ -145,6 +146,28 @@
                     
                 }
             }
+
+            .arrow {
+                position: absolute;
+                top: -16px;
+                left: -20px;
+                animation: arrowAnimation 5s linear infinite;
+
+                #arrow {
+                    color: #daeced;
+                    font-size: 2.5rem;
+
+                }
+              }
+              
+              @keyframes arrowAnimation {
+                0% {
+                  left: 10%;
+                }
+                100% {
+                  left: 88%;
+                }
+              }
         }
 
         #id5 {
