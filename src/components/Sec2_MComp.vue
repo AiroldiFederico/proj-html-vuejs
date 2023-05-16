@@ -11,10 +11,36 @@
         data(){
             return{
                
-
+                numero1: 200,
+                numero2: 16,
+                numero3: 223
 
             }
         },
+        mounted() {
+            this.startTimers();
+        },
+        methods: {
+            startTimers() {
+                setInterval(() => {
+                    if (this.numero1 < 300) {
+                        this.numero1++;
+                    }
+                }, 60000); // Incremento ogni 1 minuto
+
+                    setInterval(() => {
+                    if (this.numero2 < 100) {
+                        this.numero2++;
+                    }
+                }, 5000); // Incremento ogni 5 secondi
+
+                    setInterval(() => {
+                    if (this.numero3 < 500) {
+                        this.numero3++;
+                    }
+                }, 2000); // Incremento ogni 2 secondi
+            }
+        }
     }
     
 </script>
@@ -37,19 +63,19 @@
 
             <div id="id4">
                 <div>
-                    <div class="number">0</div>
+                    <div class="number">{{ numero1 }}</div>
                     <div class="heading">Employees</div>
                     <div class="text">Lorem ipsum dolor sit amet</div>
                 </div>
 
                 <div>
-                    <div class="number">0</div>
+                    <div class="number"> {{ numero2 }}</div>
                     <div class="heading">Partners</div>
                     <div class="text">Lorem ipsum dolor sit amet</div>
                 </div>
 
                 <div>
-                    <div class="number">0</div>
+                    <div class="number">{{ numero3 }}</div>
                     <div class="heading">Customers</div>
                     <div class="text">Lorem ipsum dolor sit amet</div>
                 </div>
